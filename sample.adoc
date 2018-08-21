@@ -4,16 +4,29 @@
 
 一部のテキストを [blue]#青くする# こともできます。
 
-<<can_asciidoc,asciidocでリンク>>をつけることもできます
+<<can_asciidoc,asciidocでリンク>>をつけることもできます。
 
 === ヘディング３
 
 .コードハイライト
-[source, json]
+[source, cs]
+class TestClass
 {
-  "hoge" : "fuga",
-  "foo" : [1,2,3]
+    static void Main(string[] args)
+    {
+        System.Console.WriteLine(args.Length);
+    }
 }
+
+= タイトルを書きます
+* リスト
+* リスト
+* リストを書くときはこう書きます。
+
+[NOTE]
+====
+* あ
+====
 
 .表形式
 [cols="1,2a,3a"]
@@ -26,11 +39,7 @@
 * c-4
 |====
 
-
 [NOTE]
 ====
 * 注意文
 ====
-
-* list
-* list
