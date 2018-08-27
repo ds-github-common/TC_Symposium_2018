@@ -6,41 +6,6 @@
 
 <<can_asciidoc,asciidocでリンク>>をつけることもできます。
 
-=== ヘディング３
-
-.コードハイライト
-[source, cs]
-class TestClass
-{
-    static void Main(string[] args)
-    {
-        System.Console.WriteLine(args.Length);
-    }
-}
-
-= タイトル
-
-== タイトル
-
-=== タイトル
-
-＝を増やすたびにタイトルレベルが下がります。
-
-* リスト
-
-* リスト
-
-.表形式
-[cols="1,2a,3a"]
-|====
-|列1|列2|列3
-3+|3列結合
-.2+|2行縦結合|b-1|c-2
-|b-2|
-* c-3
-* c-4
-|====
-
 [NOTE]
 ====
 * 注意文
