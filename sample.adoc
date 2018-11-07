@@ -1,2 +1,28 @@
 = sample title
+
 サンプル用データです。
+
+= title
+== title
+=== title
+==== title
+===== title
+====== title
+
+> =が増える毎にタイトルレベルが下がります。
+
+* list
+* list
+* list
+
+> リストを書くときは、*を文頭に書きます。
+
+1. pro
+2. pro
+3. pro
+
+|===
+^|aa | bb
+
+|aa | bb
+|===
