@@ -2,27 +2,26 @@
 
 サンプル用データです。
 
-= title
 == title
 === title
 ==== title
-===== title
-====== title
 
-> =が増える毎にタイトルレベルが下がります。
+> =が増えるたびに、タイトルレベルが下がります。
 
 * list
 * list
 * list
 
-> リストを書くときは、*を文頭に書きます。
+> リストを書くときは、*を書きます。
 
 1. pro
-2. pro
-3. pro
-あ
-|===
-^|aa | bb
+1. pro
+1. pro
 
-|aa | bb
+|===
+^| aaa ^| bbb
+
+| ccc | ddd
+| ddd | eee
+| fff | hoge
 |===
