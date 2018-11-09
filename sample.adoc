@@ -5,3 +5,21 @@
 == title
 === title
 ==== title
+
+> =を追加するたびに、タイトルレベルが下がります。
+
+* list
+* list
+* list
+
+> リスト形式を書きたいときは、*を書きます。
+
+1. pro
+1. pro
+1. pro
+
+|===
+^| aaa | bbb
+
+| ccc | ddd
+|===
